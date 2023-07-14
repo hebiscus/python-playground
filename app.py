@@ -28,25 +28,41 @@ isNew = True
     # # string methods: 
     # # .find (index of char); .replace; len(); lower(); upper(); .title()
 
-arithmetic operations
-10 / 3 -> float
-10 // 3 -> integer
+# arithmetic operations
+# 10 / 3 -> float
+# 10 // 3 -> integer
 
-match statement = similar switch statement in sj
+# match statement = similar switch statement in sj
 
-list = [3, 1, -5, 100, 34]
-biggest = 0
-for number in list:
-    if number > biggest:
-        biggest = number
-print(biggest)
+# list = [3, 1, -5, 100, 34]
+# biggest = 0
+# for number in list:
+#     if number > biggest:
+#         biggest = number
+# print(biggest)
 
- list mutable, tuple immutable 
+#  list mutable, tuple immutable 
 
-blaba = {
-    "name": "blaba",
-    "baba": "name"
-}
+# blaba = {
+#     "name": "blaba",
+#     "baba": "name"
+# }
 
-print(blaba["name"]) or print(blaba.get("name"))
+# print(blaba["name"]) or print(blaba.get("name"))
+
+# classes 
+class MyClass:
+    # contructor
+    def __init__(self, plant):
+        self.data = [plant]
+
+    """A simple example class"""
+    i = 12345
+
+    def f(self):
+        return 'hello world'
+# new instance
+x = MyClass("roses") 
+# ['roses']
+print(x.data)
 
